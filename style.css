@@ -1,0 +1,58 @@
+body {
+    font-family:'arial', sans-serif;
+}
+.letra {
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+
+}
+.entradas {
+    color: olive;
+    font-weight: 700;
+    margin: 5px;
+    padding: 10px;
+}
+.divisao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p a {
+    text-decoration: none;
+    color: black;
+
+
+}
+p a:hover{
+    color: orangered;
+}
+span{
+    color: red;
+}
+footer{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+header h1 {
+    margin: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+.logo {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-30%);
+    width: 250px;
+    height: 125px;
+
+}
