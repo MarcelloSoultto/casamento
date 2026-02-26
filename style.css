@@ -32,6 +32,9 @@ p a {
 p a:hover{
     color: orangered;
 }
+p a :visited {
+    color: black;
+}
 span{
     color: red;
 }
